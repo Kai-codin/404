@@ -64,7 +64,7 @@ document.addEventListener('keydown', function(e) {
         
         // Show a fun message
         const message = document.createElement('div');
-        message.textContent = '🎉 You found the easter egg! 🎉';
+        message.textContent = 'You found the easter egg!';
         message.style.cssText = `
             position: fixed;
             top: 50%;
@@ -115,7 +115,7 @@ const quotes = [
     "The best error messages are the ones that never show up.",
     "404: The page you're looking for is in another castle.",
     "I'm not lost, I'm just exploring alternative routes.",
-    "This page is taking a coffee break. ☕",
+    "This page is taking a coffee break.",
     "Error 404: Humor not found... wait, there it is!",
     "The page has left the building.",
     "This page is on vacation. It'll be back soon!"
