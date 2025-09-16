@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #8cb9d5 0%, #93ccff 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -22,17 +22,17 @@ body {
 
 .error-content {
     background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 3rem;
     text-align: center;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
 }
 
 .error-code {
     font-size: 8rem;
     font-weight: bold;
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #8cb9d5, #93ccff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -71,10 +71,10 @@ body {
 .suggestion-link {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
     padding: 1rem;
     background: linear-gradient(45deg, #f8f9fa, #e9ecef);
-    border-radius: 12px;
+    border-radius: 8px;
     text-decoration: none;
     color: #495057;
     transition: all 0.3s ease;
@@ -84,13 +84,10 @@ body {
 .suggestion-link:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    border-color: #667eea;
+    border-color: #8cb9d5;
     background: linear-gradient(45deg, #ffffff, #f8f9fa);
 }
 
-.link-icon {
-    font-size: 1.5rem;
-}
 
 .back-home {
     display: flex;
@@ -122,16 +119,16 @@ body {
 }
 
 .home-button {
-    background: linear-gradient(45deg, #667eea, #764ba2);
+    background: linear-gradient(45deg, #8cb9d5, #93ccff);
     color: white;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
 }
 
 .home-button:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px rgba(140, 185, 213, 0.4);
 }
 
 /* Responsive design */
